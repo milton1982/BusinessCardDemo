@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #c7cfd1;
+  font: 16px/1 "Ubuntu", "arial", sans-serif;
+}
+
+.text-block {
+  color: #2d2d2d;
+}
+
+.image-block,
+.text-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-block {
+  margin-right: 1em;
+}
+
+.image-block img {
+  width: 150px;
+}
+.header {
+  font-size: 0.8rem;
+}
+
+a {
+  color: #2273cb;
+}
+
+a:hover {
+  color: #5ba6f5;
+}
+
+#site-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  background-image: url(/resources/ricepaper_v3.png);
+  padding: 2em;
+  width: 510px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 2em auto;
+  border-radius: 0.8em;
+  -webkit-box-shadow: 10px -4px 22px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -4px 22px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px -4px 22px 0px rgba(0, 0, 0, 0.75);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  display: inline-block;
+}
